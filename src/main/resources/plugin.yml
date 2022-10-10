@@ -1,0 +1,19 @@
+name: EntMaster
+version: ${project.version}
+main: me.pluginmaster.entmaster.EntMaster
+authors: [pluginmaster]
+description: Master plugin for my plugin developmment journey
+
+commands:
+  trample:
+    description: Toggles trampling of crops on or off
+    usage: /trample <player>
+    permission: entmaster.canusetrample
+
+permisisons:
+  entmaster.trample:
+    description: Allows a player to toggle trampling of crops on or off
+    default: op
+  entmaster.canusetrample:
+    description: Allows a player to use trample command
+    default: op
